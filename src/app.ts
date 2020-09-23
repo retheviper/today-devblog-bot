@@ -12,7 +12,7 @@ import slack from './lib/slack'
     webhookList.map(async url => {
 
         // Slack webhook
-        if(url.includes('hooks.slack.com')) {   
+        if(url.includes('hooks')) {   
            await slack({
                data: parsed.blog,
                url,
