@@ -20,7 +20,7 @@
   "homepage": "https://github.com/techinpark/today-devblog-bot#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@slack/webhook": "^5.0.3",
+    "@slack/webhook": "^6.0.0",
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.23",
     "@types/node": "^14.14.12",
